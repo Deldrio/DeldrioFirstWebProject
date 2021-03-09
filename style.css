@@ -1,0 +1,104 @@
+/* allgemeine Einstellung **/
+
+hmtl, body {
+	margin: 0px; padding: 0px; height: 100%; text-align: center;}
+
+
+section{
+	padding-top:70;
+	display:block ;
+	min-height:100%;}
+a{
+	text-decoration: none;	}
+li{
+	list-style-type: none;}
+	h1{
+		font-size: 50px;
+	}
+h1, h2,a {
+	font-family:"Roboto", sans-serif;
+	font-weight:500;
+	color:#494949;
+	text-transform: uppercase;}
+h3{
+	font-family:"Roboto Slap", sans-serif;
+	font-weight:500;
+	color:#494949;
+	text-transform: uppercase;}
+	}
+h4, p {
+	font-family:"Roboto Slap", sans-serif;
+	color:#494949;}
+hr{	width:30px;
+	height: 3px;
+	border:0;
+	margin:0 auto 40px auto;}
+	
+/*Header */
+
+header{
+	width: 100%;
+	height:70px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: white;
+	box-shadow:0 5px 5px rgba(0,0,0,0.1);
+	text-decoration: none;
+	z-index:1;
+}
+#profilbild{
+	width :140px;
+	float: left;
+	margin: 2px
+}
+
+header nav {
+	float: right;
+	margin: 10px 50px 0 0;
+}
+header nav ul li {
+	float: left;
+	margin-right:16px;
+}
+header nav ul li a{
+	font-size: 16px;
+}
+header nav ul li:hover{
+	padding-top: 3px;
+}
+
+/*               Home                    */
+#home{
+	min-height:20%;
+}
+#trenner{
+	min-height:50%;
+	background: url(img/bild1.JPG);
+	background-position: center center;
+	background-size: cover;
+	background-attachment:fixed;
+}
+#about{
+	min-height:70%;
+}
+#trenner2{
+	min-height:50%;
+	background: url(img/trenner2.JPG);
+	background-position: center center;
+	background-size: cover;
+	background-attachment:fixed;
+}
+#contact{
+	min-height:70%;
+}
+.Footer{
+	color:white;
+	background-color: #494949;
+	
+}
+
+
+
+
+
